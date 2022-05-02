@@ -1,0 +1,183 @@
+body{ /*aligning texts to the centre*/
+  color: #40514E
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+}
+/* you can automatically center h1 elements from top 0 right auto bottom 0 and right auto with width: 10%;
+margin: 0 auto 0 auto;*/
+
+/*images codes and styles here*/
+.adedamola{
+  width : 15%;
+}
+
+.coding{
+  width: 5%;
+}
+
+.computer{
+  width: 5%;
+}
+
+.digital{
+  width: 5%;
+}
+
+.doctor{
+  width: 5%;
+}
+
+.heart-rate{
+  width: 5%;
+}
+
+.hospital{
+  width: 5%;
+}
+
+.metabolism{
+  width: 5%;
+}
+
+.projects{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skillimg{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+h1{
+  font-size: 5.625rem; /*100%  is equivalent to 16px also 1em is equal to 16px (e.g font size : 1rem; e.t.c)*/
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2{'
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #F66B0E 10px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+}
+.middle-container{
+  margin:100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud{
+  position:absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  width: 40%
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 53;
+  -moz-border-radius: 53;
+  border-radius: 53px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 9px 22px 8px 24px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  background: #7297b3;
+  background-image: -webkit-linear-gradient(top, #7297b3, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #7297b3, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #7297b3, #2bc4ad);
+  background-image: -o-linear-gradient(top, #7297b3, #2bc4ad);
+  background-image: linear-gradient(to bottom, #7297b3, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
