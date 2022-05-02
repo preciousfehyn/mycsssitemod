@@ -3,8 +3,6 @@ body{ /*aligning texts to the centre*/
   margin: 0;
   text-align: center;
   font-family: 'Montserrat', serif;
-  width: 100px;
-  height: 100px;
 }
 /* you can automatically center h1 elements from top 0 right auto bottom 0 and right auto with width: 10%;
 margin: 0 auto 0 auto;*/
